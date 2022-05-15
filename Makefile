@@ -8,7 +8,7 @@ help: Makefiles
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 .PHONY: help
 
-## build: Build celestia-node binary.
+## build: Build celestia-node binardgsdy.
 build:
 	@echo "--> Building Celestia"
 	@go build -o build/ -ldflags ${LDFLAGS} ./cmd/celestia
