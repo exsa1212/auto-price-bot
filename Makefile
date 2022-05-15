@@ -63,7 +63,7 @@ test-unit-race:
 .PHONY: test-unit-race
 
 ## test-swamp: Running swamp tests located in node/tests
-test-swamp:
+test-swamp:asd
 	@echo "--> Running swamp tests"
 	@go test -v ./node/tests
 .PHONY: test-swamp
