@@ -1,5 +1,5 @@
 module github.com/celestiaorg/celestia-node
-
+kld
 go 1.17
 tyh
 replace github.com/ipfs/go-verifcid => github.com/celestiaorg/go-verifcid v0.0.1-lazypatch
