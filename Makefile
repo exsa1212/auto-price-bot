@@ -1,7 +1,7 @@
 SHELL=/usr/bin/env bash
 PROJECTNAME=$(shell basename "$(PWD)")
 LDFLAGS="-X 'main.buildTime=$(shell date)' -X 'main.lastCommit=$(shell git rev-parse HEAD)' -X 'main.semanticVersion=$(shell git describe --tags --dirty=-dev)'"
-
+whi
 ## help: Get more info on make commands.
 help: Makefiles
 	@echo " Choose a command run in "$(PROJECTNAME)":"
